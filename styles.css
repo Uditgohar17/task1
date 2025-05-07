@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f2027;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.container {
+  background: #203a43;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: auto;
+}
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  border: none;
+  border-radius: 6px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #f36f6f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.video-section {
+  margin-top: 20px;
+}
+a {
+  color: #ffcc00;
+  text-decoration: none;
+}
