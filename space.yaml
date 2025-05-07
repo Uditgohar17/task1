@@ -1,0 +1,11 @@
+title: AI Video Generation Tool
+emoji: 🎥
+colorFrom: gray
+colorTo: red
+sdk: static
+app_file: main.py
+python_version: 3.10
+sdk_version: 1.0.0
+app_port: 7860
+license: mit
+pinned: true
