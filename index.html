@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Video Generator</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI News Video Generator</h1>
+    <form method="POST">
+      <input type="text" name="topic" placeholder="Enter trending topic" required>
+      <button type="submit">Generate Video</button>
+    </form>
+    {% if video_path %}
+    <div class="video-section">
+      <h2>Generated Video</h2>
+      <video width="480" controls>
+        <source src="{{ video_path }}" type="video/mp4">
+      </video>
+      <a href="/download">Download Video</a>
+    </div>
+    {% endif %}
+  </div>
+</body>
+</html>
